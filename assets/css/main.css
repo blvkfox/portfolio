@@ -1,0 +1,96 @@
+.btn {
+  background: #682ae9;
+}
+
+.btn-alt {
+  border: 1px solid #682ae9;
+  color: #682ae9;
+}
+
+.brand-color {
+  color: #682ae9;
+}
+
+.fas {
+  color: #682ae9;
+}
+.navbar-header {
+  background: #fff;
+  border-bottom: 1px solid #0e1212;
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+}
+
+.hamburger span {
+  background: #682ae9;
+  height: 0.2rem;
+  width: 33px;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.hamburger span:last-of-type {
+  margin-bottom: 0;
+}
+
+.navbar-nav {
+  background: rgb(14, 18, 18, 0.95);
+  flex-direction: column;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 3.4rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.open-nav {
+  max-height: 16rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+  .navbar-nav {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    width: initial;
+    position: static;
+    max-height: initial;
+    height: initial;
+    overflow: initial;
+    transition: all 0.5s;
+  }
+  .navbar-nav a li {
+    color: #0e1212;
+  }
+}
+
+.services {
+  background: #0e1212;
+}
+
+.services p {
+  color: #9a9a9a;
+}
+
+.get-in-touch {
+  background: #0e1212;
+}
+
+.get-in-touch {
+  color: #9d9d9d;
+}
+
+.get-in-touch input,
+textarea {
+  background: none;
+  border: 1px solid #682ae9;
+}
